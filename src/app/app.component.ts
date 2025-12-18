@@ -20,5 +20,9 @@ export class AppComponent {
   private imprimir2() {
     console.log('A')
   }
+
+  private imprimir3() {
+    console.log('A')
+  }
 }
 
