@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  textoAImprimir = 'A';
   title = 'app-angular';
+
+  constructor() {
+    this.imprimir();
+  }
+
+  private imprimir() {
+    console.log('A')
+  }
+
+  private imprimir2() {
+    console.log('A')
+  }
 }
+
